@@ -106,7 +106,7 @@ This will open Windows defender firewall.
 <p>
   Step 4. Client-1 will connect to DC-1 to ensure connectivity.
 </p>
-- To ensure connectivity between the two VM's, we will ping the domain controller from the client.
+  - To ensure connectivity between the two VM's, we will ping the domain controller from the client.
 <p>
 
 
