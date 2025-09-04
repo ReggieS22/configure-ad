@@ -24,7 +24,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1: Overview
+<strong>Step 1: Overview<strong>
 
 <p>
 <strong>Setting up Active Directory infrastructure, I will configure and interconnect two virtual machines. One acting as a domain controller with a static IP address for the DNS and one acting as a client machine with a dynamic IP address.</strong>
@@ -36,7 +36,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p>
 
-- Step 2. Create two VMs (Azure)in the same VNET. One will be a Domain Controller, the other will be a Client machine.
+<strong>Step 2. Create two VMs (Azure)in the same VNET. One will be a Domain Controller, the other will be a Client machine.<strong>
 
   - Create a virtual machine (Domain Controller) on and another virtual machine (Client-1) on Azure.
   - Name them DC-1 for the Domain Controller and Client-1 for the client machine
@@ -55,7 +55,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 <p>
-  Step 3. Set the Domain Controller's Private IP to static
+ <strong>Step 3. Set the Domain Controller's Private IP to static</strong>
 </p>
 - We will change the DC to a static IP because its offering Active Directory services to the client machine (we do not want the private IP address to change so we will put it as static). Client machine will be joined to the domain. we're gonna tell client one to use DC one as the DNS server. And we need to manually configure the DNS settings for client one to use this private IP address. And if this private IP address changes this DNS server, will no longer be valid.
 <p>
@@ -79,7 +79,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 <p>
-  Step 3. Log into DC-1 and go turn off these firewall settings.
+<strong>Step 4. Log into DC-1 and go turn off these firewall settings.</strong>
 </p>
 - Go to the search bar at the bottom left and type in run.  >  Then type in wf.msc 
 This will open Windows defender firewall.
@@ -104,7 +104,7 @@ This will open Windows defender firewall.
 
 
 <p>
-  Step 4. Client-1 will connect to DC-1 to ensure connectivity.
+  <strong>Step 5. Client-1 will connect to DC-1 to ensure connectivity.</strong>
 </p>
   - To ensure connectivity between the two VM's, we will ping the domain controller from the client.
 <p>
