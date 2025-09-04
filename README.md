@@ -87,6 +87,16 @@ This will open Windows defender firewall.
 <img width="411" height="232" alt="Screenshot 2025-09-04 143238" src="https://github.com/user-attachments/assets/c945f46e-c550-43c0-911a-67a6c789633d"/>
 
 </p>
+<img width="405" height="250" alt="Screenshot 2025-09-04 143310" src="https://github.com/user-attachments/assets/ae199777-c7f9-4ec9-bb91-6661dbc8bd32" />
+
+<p>
+- Make sure to turn off the Domain Profile and Private Profile's Fire wall off.
+- Leaving the public profile firewall on.
+- Turn the Inbound and Outbound connections rules to allow.
+  
+</p>
+<img width="405" height="250" alt="Screenshot 2025-09-04 143310" src="https://github.com/user-attachments/assets/499a25d0-3bb2-4a1e-b323-00da9ace9214"/>
+
 
 <br />
 
