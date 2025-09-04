@@ -38,7 +38,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Step 2. Create two VMs (Azure)in the same VNET. One will be a Domain Controller, the other will be a Client machine.
 
-  - Create a virtual machine (Domain Controller)on and another virtual machine (Client-1) on Azure.
+  - Create a virtual machine (Domain Controller) on and another virtual machine (Client-1) on Azure.
   - Name them DC-1 for the Domain Controller and Client-1 for the client machine
   - For the Domain Controller: Select Windows Server 2022: Azure Edition - x64 Gen2 as the image
   - size (Standard_D2s_v3 - 2 vcpus, 8 GiB memory)
