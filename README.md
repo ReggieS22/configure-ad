@@ -60,7 +60,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - We will change the DC to a static IP because its offering Active Directory services to the client machine (we do not want the private IP address to change so we will put it as static). Client machine will be joined to the domain. we're gonna tell client one to use DC one as the DNS server. And we need to manually configure the DNS settings for client one to use this private IP address. And if this private IP address changes this DNS server, will no longer be valid.
 <p>
 - Once the VM has been deployed, proceed to the VM overview page and select "Networking" -> network setting on the left side.
-
 </p>
 <img width="771" height="444" alt="Screenshot 2025-09-04 142451" src="https://github.com/user-attachments/assets/b8473d58-6d43-4ec4-b93e-ac88125e17c9"/>
 <br />
