@@ -115,6 +115,7 @@ This will open Windows defender firewall.
   - Find DC-1's private IP address in the Azure Portal and copy it. Proceed to Client-1 and open the terminal and type "ping (DC-01 private ip address)"
 
   - Now we can ping DC-1 successfully from Client-1
+  - Then we can type ipconfig /all to see that the DNS server is DC-1 private IP address.
 
 
 </p>
