@@ -102,3 +102,30 @@ This will open Windows defender firewall.
 <br />
 
 
+
+<p>
+  Step 4. Client-1 will connect to DC-1 to ensure connectivity.
+</p>
+- To ensure connectivity between the two VM's, we will ping the domain controller from the client.
+<p>
+
+
+  - Login to VM client-1 using remote desktop (for mac user use windows app)
+
+  - Find DC-1's private IP address in the Azure Portal and copy it. Proceed to Client-1 and open the terminal and type "ping (DC-01 private ip address)"
+
+  - Now we can ping DC-1 successfully from Client-1
+
+
+</p>
+<img width="1996" height="1249" alt="Screenshot 2025-09-03 203420" src="https://github.com/user-attachments/assets/367d3abf-89e2-4d1b-93e3-a277d50ab847"/>
+
+<p>
+
+</p>
+
+
+
+<br />
+
+
