@@ -71,3 +71,20 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 </p>
 <img width="769" height="442" alt="Screenshot 2025-09-04 142507" src="https://github.com/user-attachments/assets/00575e62-2987-4f8b-ace7-14fb9ac51c77"/>
+
+
+
+
+<p>
+  Step 3. Log into DC-1 and go turn off these firewall settings.
+</p>
+- Go to the search bar at the bottom left and type in run.  >  Then type in wf.msc 
+This will open Windows defender firewall.
+<p>
+<img width="411" height="232" alt="Screenshot 2025-09-04 143238" src="https://github.com/user-attachments/assets/c945f46e-c550-43c0-911a-67a6c789633d"/>
+
+</p>
+
+<br />
+
+
