@@ -95,7 +95,8 @@ This will open Windows defender firewall.
 - Turn the Inbound and Outbound connections rules to allow.
   
 </p>
-<img width="405" height="250" alt="Screenshot 2025-09-04 143310" src="https://github.com/user-attachments/assets/499a25d0-3bb2-4a1e-b323-00da9ace9214"/>
+<img width="396" height="449" alt="Screenshot 2025-09-04 143329" src="https://github.com/user-attachments/assets/41f373d8-b2a4-4f70-8fc0-5ccae531a175"/>
+
 
 
 <br />
