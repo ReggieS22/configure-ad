@@ -36,7 +36,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <p>
 
-  - Create two VMs (Azure)in the same VNET. One will be a Domain Controller, the other will be a Client machine.
+- Step 2. Create two VMs (Azure)in the same VNET. One will be a Domain Controller, the other will be a Client machine.
 
   - Create a virtual machine (Domain Controller)on Azure.
   - Name it DC-1
