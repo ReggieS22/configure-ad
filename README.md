@@ -69,6 +69,5 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 - Select Network Interface Card -> IP configurations -> ipconfig1 and set Private IP address allocation to static.
 <p>
-<img width="769" height="442" alt="Screenshot 2025-09-04 142507" src="https://github.com/user-attachments/assets/00575e62-2987-4f8b-ace7-14fb9ac51c77"/>
-
 </p>
+<img width="769" height="442" alt="Screenshot 2025-09-04 142507" src="https://github.com/user-attachments/assets/00575e62-2987-4f8b-ace7-14fb9ac51c77"/>
