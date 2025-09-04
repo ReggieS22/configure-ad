@@ -75,6 +75,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 
+
+
+
 <p>
   Step 3. Log into DC-1 and go turn off these firewall settings.
 </p>
