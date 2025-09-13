@@ -3,8 +3,8 @@
 
 </p>
 
-<h1>Network File Shares and Permissios (Azure)</h1>
-This tutorial outlines the implementation of Network File Shares and Permissios in Azure.<br />
+<h1>Network File Shares and Permissions (Azure)</h1>
+This tutorial outlines the implementation of Network File Shares and Permissions in Azure.<br />
 
 
 <h2>Video Demonstration</h2>
