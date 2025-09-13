@@ -179,6 +179,14 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 <img width="1124" height="632" alt="Screenshot 2025-09-13 163520" src="https://github.com/user-attachments/assets/05bb8bf3-cf3c-49c9-9888-3f4e135a3401" />
 
 
+- Open up Office Supply List
+- The Domain User should be able to read and write in this folder
+- I created a document as the Domain User
+
+<img width="1123" height="630" alt="Screenshot 2025-09-13 163701" src="https://github.com/user-attachments/assets/1fffe298-9876-4684-9886-8b3b07bf44d7" />
+
+
+
 
 
 <p>
