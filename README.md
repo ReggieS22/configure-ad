@@ -147,3 +147,17 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 
 <p>
 
+
+
+## Step 1: Login to Client-1 as any user from Active Directory
+
+**Pick any user from your Active Directory to login to our Client-1 machine.**
+
+<img width="1155" height="552" alt="Screenshot 2025-09-13 162827" src="https://github.com/user-attachments/assets/836d9505-ae08-48f5-b989-af1e777bf8ed" />
+
+
+
+
+
+<p>
+
