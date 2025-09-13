@@ -22,5 +22,14 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
+## Step 1: Logging in to our DC-1 (Domain Controller) Virtual Machine
+
+**Log into your domain controller as Jane Admin.**
+
+
+<img width="970" height="652" alt="Screenshot 2025-09-12 124834" src="https://github.com/user-attachments/assets/268c2e01-3f5e-4168-aba4-0c8947a8c9a6" />
+
+
+
+<p>
 
