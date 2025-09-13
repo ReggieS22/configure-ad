@@ -197,6 +197,14 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 <img width="476" height="237" alt="Screenshot 2025-09-13 163957" src="https://github.com/user-attachments/assets/57870ab8-6971-4255-bb6a-069b431ea364" />
 
 
+- Open up Scripts
+- Notice how the Domain User can't even access the folder.
+- This is due to this folder only be created to be able to access by Domain Admins
+
+<img width="517" height="191" alt="Screenshot 2025-09-13 164426" src="https://github.com/user-attachments/assets/fe50b976-a5e6-4704-8a2c-f7a2eccb06ec" />
+
+
+
 
 <p>
 
