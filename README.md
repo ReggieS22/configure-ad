@@ -208,3 +208,30 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 
 <p>
 
+
+
+
+
+
+
+## Step 7: Go back to our DC-1 VM to configure the Accounts folder
+
+**We're going to assign our Accounts folder to a Security Group.**
+
+- Open up Active Directory Users and Computers
+- Right click on mydomain.com > New > Organizational Unit
+- Name the OU, _GROUPS
+
+<img width="434" height="375" alt="Screenshot 2025-09-13 165132" src="https://github.com/user-attachments/assets/e0f1e478-ec19-4cd6-bf5d-c1581cdc1a19" />
+
+- In the right pane, right click
+- Select New > Group
+- Name the Group ACCOUNTANTS
+
+<img width="435" height="376" alt="Screenshot 2025-09-13 165445" src="https://github.com/user-attachments/assets/de970bfd-d4e6-4f38-9213-7274ebe3b732" />
+
+
+
+
+
+<p>
