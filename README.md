@@ -317,3 +317,27 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 
 <p>
 
+
+
+
+## Step 13: Try to access the "Accounts" folder again in Client-1
+
+**You may have to sign out and sign back in as the user to let the folder and Security Group update.**
+
+- Go to File Explorer and find the Accounts folder and open it
+
+<img width="1123" height="630" alt="Screenshot 2025-09-13 172409" src="https://github.com/user-attachments/assets/612c6dfb-bc15-4b47-b590-e50e2cabe87f" />
+
+- You should now be able to see the contents in this folder and edit them
+
+<img width="1122" height="628" alt="Screenshot 2025-09-13 172445" src="https://github.com/user-attachments/assets/460a4955-51fb-4675-9915-0a024a7f9b30" />
+
+
+
+
+
+
+
+<p>
+
+
