@@ -16,7 +16,6 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
-- PowerShell
 
 <h2>Operating Systems Used </h2>
 
