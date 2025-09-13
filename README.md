@@ -265,3 +265,27 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 
 
 <p>
+
+
+
+
+## Step 11: Try to access the "Accounts" folder as the Domain User
+
+**We're going to see what happens if the Domain User tries to access the Accounts folder**
+
+- Go to the File Explorer and click on the Accounts folder
+- You'll see that the user can't access the folder
+- This is due to the user not being assign to the Security Group named ACCOUNTANTS
+
+<img width="1121" height="627" alt="Screenshot 2025-09-13 171027" src="https://github.com/user-attachments/assets/5edc4fd4-6f98-4970-b420-9809230495b5" />
+
+
+<img width="516" height="191" alt="Screenshot 2025-09-13 171045" src="https://github.com/user-attachments/assets/be6968bb-0ec5-4fee-a3c0-410e09a9b3ea" />
+
+
+
+
+
+
+
+<p>
