@@ -50,3 +50,32 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 
 
 <p>
+
+
+
+
+## Step 3: Give the "Team Announcements" folder read permission level
+
+**Give the team announcements folder only read permissions for the domain users**
+
+- Right click the folder > Select Properties
+- Press the Sharing tab
+- Click the Share button
+
+<img width="356" height="475" alt="Screenshot 2025-09-13 160342" src="https://github.com/user-attachments/assets/26d885c2-6a8e-4122-ba14-82b23a722391" />
+
+
+- Add the Domain Users to the box
+- Click add
+
+<img width="614" height="453" alt="Screenshot 2025-09-13 160428" src="https://github.com/user-attachments/assets/d1917d91-4ac3-4497-ad4d-8e949d46e9af" />
+
+
+- Set the Permssion level to Read
+
+<img width="610" height="451" alt="Screenshot 2025-09-13 160455" src="https://github.com/user-attachments/assets/3fdf3ee9-7f14-438d-b3f9-fe0764a3ce65" />
+
+
+
+
+<p>
