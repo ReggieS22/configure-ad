@@ -33,3 +33,20 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 
 <p>
 
+
+## Step 2: Create Folders in File explrorer
+
+**We'll create 4 folders.**
+
+- The first file name will be Team Announcements (read-access)
+- 2nd will be Office Supply List (read/write permissions)
+- 3rd will be Scripts (No-access. Only for Admins able to access)
+- 4th will be Accounts (We'll save for later to include it in a Security Group)
+
+
+
+<img width="490" height="114" alt="Screenshot 2025-09-13 155728" src="https://github.com/user-attachments/assets/a992365d-d974-49ef-b468-86fb00a837d7" />
+
+
+
+<p>
