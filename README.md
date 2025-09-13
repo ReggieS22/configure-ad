@@ -214,7 +214,7 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 
 
 
-## Step 7: Go back to our DC-1 VM to configure the Accounts folder
+## Step 9: Go back to our DC-1 VM to create a Security Group
 
 **We're going to assign our Accounts folder to a Security Group.**
 
@@ -229,6 +229,36 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 - Name the Group ACCOUNTANTS
 
 <img width="435" height="376" alt="Screenshot 2025-09-13 165445" src="https://github.com/user-attachments/assets/de970bfd-d4e6-4f38-9213-7274ebe3b732" />
+
+
+
+
+
+<p>
+
+
+
+## Step 10: Share the Accounts folder to the ACCOUNTANTS Security Group
+
+**We're assigning the Accounts folder to the ACCOUNTANTS Security Group**
+
+- Go to File Explorer and find the Accounts folder
+- Right click > Properties
+- Go to the Sharing tab
+- Press the Share button
+
+
+<img width="357" height="477" alt="Screenshot 2025-09-13 165719" src="https://github.com/user-attachments/assets/5ca899be-9d91-4021-a802-da37f0c01a9b" />
+
+- Add the Security Group, ACCOUNTANTS to the box
+- Click Add
+- Give it the Permission Level of Read/Write
+
+<img width="610" height="448" alt="Screenshot 2025-09-13 170303" src="https://github.com/user-attachments/assets/b38f6e9c-cf0d-4042-ab91-c79b310edbd8" />
+
+
+
+
 
 
 
