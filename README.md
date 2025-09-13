@@ -335,7 +335,7 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 
 
 
-
+- I hope this lab was very helpful on how Network File Shares and Permissions work :)
 
 
 <p>
