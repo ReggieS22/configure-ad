@@ -1,5 +1,6 @@
 <p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt=""/>
+<img width="1200" height="630" alt="File shares" src="https://github.com/user-attachments/assets/2d2ee3f6-7059-4634-9538-0751e3e50639" />
+
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
