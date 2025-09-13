@@ -34,7 +34,7 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 <p>
 
 
-## Step 2: Create Folders in File explrorer
+## Step 2: Create Folders in File explorer
 
 **We'll create 4 folders.**
 
