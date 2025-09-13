@@ -71,9 +71,42 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 <img width="614" height="453" alt="Screenshot 2025-09-13 160428" src="https://github.com/user-attachments/assets/d1917d91-4ac3-4497-ad4d-8e949d46e9af" />
 
 
-- Set the Permssion level to Read
+- Set the Permssion level for the Domain Users to Read
+- Hit Share
 
 <img width="610" height="451" alt="Screenshot 2025-09-13 160455" src="https://github.com/user-attachments/assets/3fdf3ee9-7f14-438d-b3f9-fe0764a3ce65" />
+
+
+
+
+<p>
+
+
+
+## Step 4: Give the "Office Supply List" folder read/write permission level
+
+**Give the Office Supply List folder read/write permissions for the domain users.**
+
+
+- Right click the folder > Select Properties
+- Press the Sharing tab
+- Click the Share button
+
+<img width="356" height="473" alt="Screenshot 2025-09-13 161414" src="https://github.com/user-attachments/assets/6da21699-f038-44ee-913a-a087533f124a" />
+
+
+
+- Add the Domain Users to the box
+- Click add
+
+<img width="614" height="452" alt="Screenshot 2025-09-13 161432" src="https://github.com/user-attachments/assets/ba437fe9-3999-4414-b1c1-227af128abc7" />
+
+
+
+- Set the Permission level for the Domain Users to Read/Write
+- Hit Share
+
+<img width="614" height="454" alt="Screenshot 2025-09-13 161446" src="https://github.com/user-attachments/assets/09845777-5832-4108-854f-9160ea3a70f0" />
 
 
 
