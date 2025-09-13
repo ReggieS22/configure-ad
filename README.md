@@ -289,3 +289,30 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 
 
 <p>
+
+
+
+## Step 12: Assign the Domain User to the Security Group
+
+**We're going to assign the Domain User to the Security Group called ACCOUNTANTS to let the access the folder.**
+
+- Go back to Active Directory Users and Computers on DC-1
+- Double click the ACCOUNTANTS Security group
+- Go to the Members tab > Click add
+- Add the user's name > Check names > Hit OK
+
+
+<img width="396" height="449" alt="Screenshot 2025-09-13 171607" src="https://github.com/user-attachments/assets/c7a7a632-2f32-48c2-ab0a-7c154b4fd49d" />
+
+
+<img width="396" height="452" alt="Screenshot 2025-09-13 171631" src="https://github.com/user-attachments/assets/4a5c3f60-4fc5-42d7-95cb-715d7f99ac4c" />
+
+
+
+
+
+
+
+
+<p>
+
