@@ -112,3 +112,38 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 
 
 <p>
+
+
+
+## Step 5: Give the "Scripts" folder read/write permission level for Domain Admins ONLY
+
+**Give the Scripts folder read/write permission level for Domain Admins ONLY. No domain users will be able to access this file.**
+
+- Right click the folder > Select Properties
+- Press the Sharing tab
+- Click the Share button
+
+<img width="360" height="476" alt="Screenshot 2025-09-13 162146" src="https://github.com/user-attachments/assets/32b26a16-0ec7-4881-89c3-e14472162721" />
+
+
+
+
+- Add the Domain Admins to the box
+- Click Add
+
+<img width="616" height="451" alt="Screenshot 2025-09-13 162208" src="https://github.com/user-attachments/assets/7234c440-7a8a-42c8-a442-e273d3bfe85a" />
+
+
+
+- Set the Permission level for the Domain Admins to Read/Write
+- Hit Share
+- This folder can be only access to Domain Admins and not to regular domain users
+
+<img width="615" height="453" alt="Screenshot 2025-09-13 162227" src="https://github.com/user-attachments/assets/420ff7a9-f607-4d50-bd4f-b53c39828305" />
+
+
+
+
+
+<p>
+
