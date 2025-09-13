@@ -307,6 +307,7 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 
 <img width="396" height="452" alt="Screenshot 2025-09-13 171631" src="https://github.com/user-attachments/assets/4a5c3f60-4fc5-42d7-95cb-715d7f99ac4c" />
 
+- The User is now added to the Security Group
 
 
 
