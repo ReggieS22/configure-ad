@@ -185,7 +185,16 @@ This tutorial outlines the implementation of Network File Shares and Permissions
 
 <img width="1123" height="630" alt="Screenshot 2025-09-13 163701" src="https://github.com/user-attachments/assets/1fffe298-9876-4684-9886-8b3b07bf44d7" />
 
+- Open up Team Announcements
+- The Domain User should be able to see and read what's inside this folder
 
+<img width="1126" height="629" alt="Screenshot 2025-09-13 163920" src="https://github.com/user-attachments/assets/77af91d4-a95d-4567-90aa-50c56ed58832" />
+
+
+- However, if the Domain User try to create documents inside, they recieve this error message
+- Stating that they need permissions to perform this action
+
+<img width="476" height="237" alt="Screenshot 2025-09-13 163957" src="https://github.com/user-attachments/assets/57870ab8-6971-4255-bb6a-069b431ea364" />
 
 
 
