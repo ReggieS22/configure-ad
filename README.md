@@ -146,6 +146,21 @@ This tutorial outlines the implementation of pre-installation of Active Director
 <p>
 
 
+## Step 6: In Powershell, type ipconfig /all 
+
+**The output for the DNS settings should show DC-1's private IP address**
+
+- In Powershell, type in ipconfig /all
+- You should see the DNS servers IP should be set to 10.0.0.4 (DC-1's private IP address)
+
+<img width="1996" height="1249" alt="Screenshot 2025-09-03 203420" src="https://github.com/user-attachments/assets/9578cc37-2f34-4305-83b6-2ed99166245b" />
+
+
+- That's it for this portion, see you in the next portion of the lab :)
+
+
+<p>
+
 
 
 
