@@ -24,30 +24,45 @@ This tutorial outlines the implementation of pre-installation of Active Director
 - Windows Server 2022
 - Windows 10 (21H2)
 
-## Step 1: Logging in to our DC-1 (Domain Controller) Virtual Machine
+## Step 1: Setting up Active Directory Infrastructure
 
-**Log into your domain controller as Jane Admin.**
+- First we will configure and interconnect two virtual machines, each with distinct roles. The first virtual machine will be a designated Domain Controller. The second virtual machine will be configured as the Client.
 
 
-<img width="970" height="652" alt="Screenshot 2025-09-12 124834" src="https://github.com/user-attachments/assets/268c2e01-3f5e-4168-aba4-0c8947a8c9a6" />
+<img width="829" height="708" alt="Screenshot 2025-09-03 140121" src="https://github.com/user-attachments/assets/60af5984-77a3-4a42-ac63-111dda0ce365" />
+
 
 
 
 <p>
 
 
-## Step 2: Create Folders in File explorer
+## Step 2: Create the Virtual Machines
 
-**We'll create 4 folders.**
+**Create two VMs (Azure) in the same VNET. One will be a Domain Controller, the other will be a Client machine**
 
-- The first file name will be Team Announcements (read-access)
-- 2nd will be Office Supply List (read/write permissions)
-- 3rd will be Scripts (No-access. Only for Admins able to access)
-- 4th will be Accounts (We'll save for later to include it in a Security Group)
+- Create a VM for the Domain Controller on Azure.
+- Name it DC-1
+- Select Windows Server 2022 Datacenter: Azure Edition -x64 Gen2 as the Image
+- Size (Standard_D2_v3 - 2 vcpus, 8 GiB memory)
+- Create a username and password for your VM DC-1
 
 
+<img width="738" height="428" alt="Screenshot 2025-09-18 104915" src="https://github.com/user-attachments/assets/8f9134be-eaf9-4db2-80d6-7039f48289bc" />
 
-<img width="490" height="114" alt="Screenshot 2025-09-13 155728" src="https://github.com/user-attachments/assets/a992365d-d974-49ef-b468-86fb00a837d7" />
+**Create a VM for the client machine**
+
+- Create a new VM
+- Name it Client-1
+- Slect Windows 10 Pro as the image
+- Select at least 2 vcpus and 16 GiB memory
+- Create a username and password for your VM Client-1
+- Make sure to select the same resource group and Virtual network from the DC-1 VM
+
+
+<img width="767" height="443" alt="image" src="https://github.com/user-attachments/assets/3fc81412-8f1b-431b-930a-2f0b97801b4f" />
+
+
 
 
 
@@ -56,27 +71,21 @@ This tutorial outlines the implementation of pre-installation of Active Director
 
 
 
-## Step 3: Give the "Team Announcements" folder read permission level
+## Step 3: Set the Domain Controller's Private IP to static
 
-**Give the team announcements folder only read permissions for the domain users**
+**We don't want the IP to change so that the client-1 machine can join the Domain**
 
-- Right click the folder > Select Properties
-- Press the Sharing tab
-- Click the Share button
+- Once the VM has been deployed, proceed to the VM overview page and select "Networking" > network settings on the left side.
 
-<img width="356" height="475" alt="Screenshot 2025-09-13 160342" src="https://github.com/user-attachments/assets/26d885c2-6a8e-4122-ba14-82b23a722391" />
+<img width="771" height="444" alt="Screenshot 2025-09-04 142451" src="https://github.com/user-attachments/assets/df88c968-13d6-4f79-a582-0f17864679da" />
 
 
-- Add the Domain Users to the box
-- Click add
+- Select Network Interface Card > IP configurations > ipconfig1 and set Private IP addess allocation to static.
 
-<img width="614" height="453" alt="Screenshot 2025-09-13 160428" src="https://github.com/user-attachments/assets/d1917d91-4ac3-4497-ad4d-8e949d46e9af" />
+<img width="769" height="442" alt="Screenshot 2025-09-04 142507" src="https://github.com/user-attachments/assets/56ae10dd-ee06-402f-b428-52d20ff8dd85" />
 
 
-- Set the Permssion level for the Domain Users to Read
-- Hit Share
 
-<img width="610" height="451" alt="Screenshot 2025-09-13 160455" src="https://github.com/user-attachments/assets/3fdf3ee9-7f14-438d-b3f9-fe0764a3ce65" />
 
 
 
