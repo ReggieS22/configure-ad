@@ -4,7 +4,7 @@
 
 </p>
 
-<h1>Network File Shares and Permissions (Azure)</h1>
+<h1>Preparing Active Directory Infrastructure in Azure</h1>
 This tutorial outlines the implementation of pre-installation of Active Directory within Azure Virtual Mahcines.<br />
 
 
