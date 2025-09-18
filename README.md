@@ -5,12 +5,12 @@
 </p>
 
 <h1>Network File Shares and Permissions (Azure)</h1>
-This tutorial outlines the implementation of Network File Shares and Permissions in Azure.<br />
+This tutorial outlines the implementation of pre-installation of Active Directory within Azure Virtual Mahcines.<br />
 
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: Network File Shares and Permissions](https://youtu.be/jk_TSwV443Q)
+- ### [YouTube: Prerequisites for Active Directory](https://youtu.be/3ZM86XnAXdU)
 
 <h2>Environments and Technologies Used</h2>
 
