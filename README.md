@@ -129,6 +129,24 @@ This tutorial outlines the implementation of pre-installation of Active Director
 <p>
 
 
+## Step 5: Login to Client-1 and ping the Domain Controller
+
+**We're going to use Powershell to ping the Domain Controller VM**
+
+- Login to Client-1
+- Look up Powershell in the search bar
+- Ping the Domain controller's private IP address (10.0.0.4)
+
+<img width="675" height="398" alt="Screenshot 2025-09-18 111944" src="https://github.com/user-attachments/assets/c0601cac-60f3-43e6-be2b-af1f5b9fb023" />
+
+
+
+
+
+<p>
+
+
+
 
 
 
