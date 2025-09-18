@@ -17,6 +17,7 @@ This tutorial outlines the implementation of pre-installation of Active Director
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
+- Powershell
 
 <h2>Operating Systems Used </h2>
 
