@@ -96,16 +96,29 @@ This tutorial outlines the implementation of pre-installation of Active Director
 
 ## Step 4: Login to DC-1 and configure the firewall settings
 
-**We don't want the IP to change so that the client-1 machine can join the Domain**
+**We're going to configure the firewall settings inside our Domain Controller virtual machine**
 
-- Once the VM has been deployed, proceed to the VM overview page and select "Networking" > network settings on the left side.
+- Right click the start menu and click Run
+- Type in wf.msc
+- This will open Windows Defender Firewall with Advanced Security
 
-<img width="771" height="444" alt="Screenshot 2025-09-04 142451" src="https://github.com/user-attachments/assets/df88c968-13d6-4f79-a582-0f17864679da" />
+<img width="411" height="232" alt="Screenshot 2025-09-04 143238" src="https://github.com/user-attachments/assets/93eb7161-6a6f-45a2-a81f-af9aaec633e5" />
 
 
-- Select Network Interface Card > IP configurations > ipconfig1 and set Private IP addess allocation to static.
 
-<img width="769" height="442" alt="Screenshot 2025-09-04 142507" src="https://github.com/user-attachments/assets/56ae10dd-ee06-402f-b428-52d20ff8dd85" />
+- Disable the Firewall settings by going to "Windows Defender Firewall Properties"
+- Turn the Domain Profile firewall off
+- Turn the Private Profile firewall off
+
+<img width="396" height="449" alt="Screenshot 2025-09-04 143329" src="https://github.com/user-attachments/assets/9794eec5-424d-456a-abe3-37758580b2ad" />
+
+- You should be left with these settings
+
+<img width="405" height="250" alt="Screenshot 2025-09-04 143310" src="https://github.com/user-attachments/assets/493b8efa-883c-45c7-91dd-09f1038e4cda" />
+
+
+
+
 
 
 
